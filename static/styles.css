@@ -7,14 +7,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  }
 }
 
 .centered {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
 }
 
@@ -30,6 +28,11 @@ h1, h2, li {
   margin-right: 3rem;
 }
 
+.flagimg {
+  width: 100px;
+  margin-right: 3rem;
+}
+
 img {
   border-radius: 10px;
   width: 200px;
@@ -40,4 +43,61 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: green;
+}
+
+a:visited {
+  text-decoration: dotted;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+a:active {
+  text-decoration: double;
+  color: silver;
+}
+
+ul li:first-child {
+  font-weight: bold;
+  color: #f38ba8;
+}
+
+table {
+  width: 80%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #cdd6f4;
+}
+
+thead tr {
+  background-color: #45475a;
+  color: #f9e2af;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #313244;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #1e1e2e;
+}
+
+td {
+  color: #cdd6f4;
+  font-family: "Rubik", sans-serif;
+}
+
+thead {
+  font-family: "Rubik", sans-serif;
 }
